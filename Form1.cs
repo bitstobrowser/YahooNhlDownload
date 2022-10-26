@@ -68,8 +68,8 @@ namespace NhlDownload
                 {
                     for (int pages = 0; pages < 30; pages++) //30 * 25 players per page = top 625 players
                     {
-                        //String baseUrl = "https://hockey.fantasysports.yahoo.com/hockey/" + leagueNumber.ToString() + "/players?status=ALL&pos=P&cut_type=33&stat1=S_S_2017&myteam=0&sort=AR&sdir=1";
-                        String baseUrl = "https://hockey.fantasysports.yahoo.com/hockey/" + leagueNumber.ToString() + "/players?&sort=AR&sdir=1&status=ALL&pos=P&stat1=S_S_2017&jsenabled=1";
+                        //String baseUrl = "https://hockey.fantasysports.yahoo.com/hockey/" + leagueNumber.ToString() + "/players?status=ALL&pos=P&cut_type=33&stat1=S_S_2022&myteam=0&sort=AR&sdir=1";
+                        String baseUrl = "https://hockey.fantasysports.yahoo.com/hockey/" + leagueNumber.ToString() + "/players?&sort=AR&sdir=1&status=ALL&pos=P&stat1=S_S_2022&jsenabled=1";
                         String pageUrl;
                         if (pages == 0)
                         {
